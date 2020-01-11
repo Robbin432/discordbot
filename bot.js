@@ -23,7 +23,8 @@ client.on('guildMemberAdd', member => {
   // Do nothing if the channel wasn't found on this server
   if (!channel) return;
   // Send the message, mentioning the member
-  channel.send(`Welcome to the server ${member}! Here's a :cookie: Feel free to introduce yourself, for example by telling us your favorite roller coaster! :roller_coaster:});
+  channel.send(`Welcome to the server ${member}! Feel free to introduce yourself by telling us your homepark and favorite roller coaster! :roller_coaster: `);
+});
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login(process.env.BOT_TOKEN);
+client.login('NjY0MjYxMTg1OTgxNjQ0ODAw.XhX3LQ.FXJBY8ZQ-QPWgudhvJS7s1AWyG0');
