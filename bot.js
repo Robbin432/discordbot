@@ -27,4 +27,4 @@ client.on('guildMemberAdd', member => {
 });
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login('NjY0MjYxMTg1OTgxNjQ0ODAw.XhX3LQ.FXJBY8ZQ-QPWgudhvJS7s1AWyG0');
+client.login('NjY0MjYxMTg1OTgxNjQ0ODAw.Xhm2lg.MmF9QzQMmbvGV6cp3ungOknGipo');
